@@ -18,7 +18,7 @@ plztype("""spammer 1.0.0 by bob
 
   dont use this to annoy other people!!!!
 """)
-m = input("what is the message? \n")
+m = input("the text for spamming is: ")
 plztype("""oke , you have 10 seconds before spam starts , \n
 go and click on the text input (where you type)
 """)
