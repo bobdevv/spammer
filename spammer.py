@@ -16,14 +16,12 @@ try:
     dont use this to annoy other people!!!!
   """)
   m = input("\033[1;32;40m message you wanna type is: ")
-  s = input("\033[1;32;40m how fast do you want to type? (example = 1.0)")
   plztype("""\033[1;32;40m oke , you have 10 seconds before spam starts , \n
   go and click on the text input (where you type)
   """)
   time.sleep(10)
   while True:
     pyautogui.write(m)
-    bool(time.sleep(s))
     pyautogui.press('enter')
  
 except KeyboardInterrupt:
