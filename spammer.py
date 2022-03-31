@@ -1,29 +1,29 @@
 from errno import ENETRESET
-import pyautogui
-import time
-import sys
-import sys,time,random
+import sys,time,random,pyautogui,signal
+try:
+  typing_speed = 100
+  def plztype(t):
+      for l in t:
+          sys.stdout.write(l)
+          sys.stdout.flush()
+          time.sleep(random.random()*10.0/typing_speed)
+  plztype("""\033[1;32;40m spammer 1.1.0 by bob
 
-typing_speed = 70
-def plztype(t):
-    for l in t:
-        sys.stdout.write(l)
-        sys.stdout.flush()
-        time.sleep(random.random()*10.0/typing_speed)
-plztype("""spammer 1.0.0 by bob
-
-█▀ █▀█ ▄▀█ █▀▄▀█ █▀▄▀█ █▀▀ █▀█
-▄█ █▀▀ █▀█ █░▀░█ █░▀░█ ██▄ █▀▄
+  █▀ █▀█ ▄▀█ █▀▄▀█ █▀▄▀█ █▀▀ █▀█
+  ▄█ █▀▀ █▀█ █░▀░█ █░▀░█ ██▄ █▀▄
   
 
-  dont use this to annoy other people!!!!
-""")
-m = input("the text for spamming is: ")
-plztype("""oke , you have 10 seconds before spam starts , \n
-go and click on the text input (where you type)
-""")
-time.sleep(10)
-while True:
-    pyautogui.typewrite(m)
-    time.sleep(0.5)
+    dont use this to annoy other people!!!!
+  """)
+  m = input("\033[1;32;40m message you wanna type is: ")
+  plztype("""\033[1;32;40m oke , you have 10 seconds before spam starts , \n
+  go and click on the text input (where you type)
+  """)
+  time.sleep(10)
+  while True:
+    pyautogui.write(m)
+   
     pyautogui.press('enter')
+ 
+except KeyboardInterrupt:
+ print("\n \033[1;32;40m goodbye! have a great time! ")
