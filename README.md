@@ -23,3 +23,6 @@ That have the control of your keyboard
 
 When you specify the message it just type that
 And press enter , it works like human hand! 
+
+i tested the spam in wa web and discord and it work really good!
+
