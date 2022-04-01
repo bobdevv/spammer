@@ -15,3 +15,11 @@ then for running the script run "python3 spammer.py"
 thats it!
 
 have fun
+
+How it work?
+--------------------------
+This code uses a Library called pyautogui 
+That have the control of your keyboard
+
+When you specify the message it just type that
+And press enter , it works like human hand! 
