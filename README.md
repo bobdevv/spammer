@@ -1,7 +1,9 @@
 # spammer
-idk why i made this but i made it;
-it just simulate typing for you;
-it type the thing then it hit enter;
+idk why i made this but i made it
+
+it just simulate typing for you
+
+it type the thing then it hit enter
 # win install
 if you dont know python just run setup-win.bat
 then run spammer.py
