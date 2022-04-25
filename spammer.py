@@ -1,5 +1,5 @@
 from errno import ENETRESET
-import sys,time,random,pyautogui,signal
+import sys,time,random,pyautogui
 fuckyou = 0
 try:
   typing_speed = 150
