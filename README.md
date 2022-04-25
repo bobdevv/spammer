@@ -1,28 +1,12 @@
-very simple but working spammer!
---------------------------------
-dont use this tool to annoy other people pls!
+# spammer
+idk why i made this but i made it
+# win install
+if you dont know python just run setup-win.bat
+then run spammer.py
+you need python3 to do these
+# install linux
+if youre using linux u probably know what to do 
+but if you dont just run setup-linux.sh
 
-This only works on Linux and windows , so if you are using termux It will not work
-
-Setup
----------------------------------
-first do "git clone https://github.com/bobdevv/spammer && cd spammer"
-
-for setup run "$sudo bash setup.sh"
-
-then for running the script run "python3 spammer.py"
-
-thats it!
-
-have fun
-
-How it work?
---------------------------
-This code uses a Library called pyautogui 
-That have the control of your keyboard
-
-When you specify the message it just type that
-And press enter , it works like human hand! 
-
-i tested the spam in wa web and discord and it work really good!
-
+made by bob
+---
