@@ -1,20 +1,17 @@
 # spammer
-idk why i made this but i made it
+This is a peace of shit but you can use it if you want
+It uses pyautogui library to gain control of your keyboard;
+Then it starts to type and presses enter after that
+___________
+Installation
+---------
+You need python3 installed to use this script
 
-it just simulate typing for you
+Then clone the repository or download the source code
 
-it type the thing then it hit enter
-# win install
-if you dont know python just run setup-win.bat
+Open terminal In the cloned or downloaded director
 
-then run spammer.py
+Then type this:```pip3 Install -r requirements.txt```
 
-you need python3 to do these
+Now you're ready to use the script
 
-# install linux
-if youre using linux u probably know what to do
-
-but if you dont just run setup-linux.sh
-
-made by bob
----
