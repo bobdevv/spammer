@@ -1,4 +1,3 @@
-from errno import ENETRESET
 import sys,time,random,pyautogui
 fuckyou = 0
 try:
